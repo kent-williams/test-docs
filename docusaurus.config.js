@@ -22,12 +22,12 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'api/',
-          activeBasePath: 'api',
-          label: 'APIs',
-          position: 'left',
+          to: "api/",
+          activeBasePath: "api",
+          label: "API",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -85,6 +85,14 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  plugins: [
+    [
+      'docusaurus-plugin-openapi',
+      {
+        openapiPath: require.resolve('./openapi.json'),
+      }
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
