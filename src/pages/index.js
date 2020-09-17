@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Build',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Helium Blockchain creates a unique incentive model, rewarding anyone who builds wireless network coverage.
+        Hundreds of compatible gateways can be used to build a wireless network for billions of Internet of Things (IoT) devices around the world.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Use',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Hundreds of companies and thousands of developers are already building IoT applications that use The People’s Network to connect and send data over the Internet.
+        Thousands of existing solutions, sensors, devices and gateways can be easily configured to run 'LongFi' - a powerful blend of LoRaWAN and the Helium Blockchain.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Earn',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Anyone can earn HNT by simply building The People’s Network and participating in Proof-of-Coverage, a novel proof-of-work model. HNT is also earned for transferring IoT device data.
+       In order to use the network and transfer data, IoT devices must use Data Credits. Fixed in value, Data Credits are created by burning HNT, reducing the total supply of 5 million HNT mined each month, to achieve a Burn and Mint Equilibrium.
       </>
     ),
   },
