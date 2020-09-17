@@ -27,12 +27,6 @@ module.exports = {
           label: "API",
           position: "left",
         },
-        {
-          to: "tutorials/",
-          activeBasePath: "tutorials",
-          label: "Tutorials",
-          position: "left",
-        },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/helium',
