@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Helium Documentation',
   tagline: 'Helium Documentation',
-  url: 'https://test-docs.netlify.com',
+  url: 'https://test-docs-h.netlify.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
