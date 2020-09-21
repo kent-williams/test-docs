@@ -8,6 +8,18 @@ module.exports = {
   organizationName: 'helium', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: 'dark',
+
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: true,
+
+      // Should we use the prefers-color-scheme media-query,
+      // using user system preferences, instead of the hardcoded defaultMode
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: '',
       logo: {
@@ -27,7 +39,7 @@ module.exports = {
           label: "API",
           position: "left",
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'showcase', label: 'Projects', position: 'left' },
         {
           href: 'https://github.com/helium',
           label: 'GitHub',
@@ -91,6 +103,15 @@ module.exports = {
       {
         openapiPath: require.resolve('./openapi.json'),
       }
+    ],
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+      },
     ],
   ],
   presets: [
