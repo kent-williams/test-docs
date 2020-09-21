@@ -39,7 +39,7 @@ module.exports = {
           label: "API",
           position: "left",
         },
-        { to: 'showcase', label: 'Projects', position: 'left' },
+        { to: 'projects', label: 'Projects', position: 'left' },
         {
           href: 'https://github.com/helium',
           label: 'GitHub',
@@ -122,7 +122,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/kent-williams/test-docs/edit/master',
         },
         blog: {
           showReadingTime: true,
