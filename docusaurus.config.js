@@ -41,6 +41,12 @@ module.exports = {
         },
         { to: 'projects', label: 'Projects', position: 'left' },
         {
+          to: 'community/tutorials',
+          label: 'Community',
+          position: 'left',
+          activeBaseRegex: `community`,
+        },
+        {
           href: 'https://github.com/helium',
           label: 'GitHub',
           position: 'right',
@@ -111,6 +117,18 @@ module.exports = {
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        editUrl: 'https://github.com/kent-williams/test-docs/edit/master',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ],
